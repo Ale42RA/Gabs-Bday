@@ -1,0 +1,337 @@
+html {
+    line-height: 2.15;
+    -webkit-text-size-adjust: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+}
+
+body {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin: 0;
+    color: beige;
+    background-color: rgba(206, 192, 148, .1);
+}
+
+main {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+[hidden],
+template {
+    display: none
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-bgridlock;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: grid;
+    background-color: brown;
+}
+
+.page_intro {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    padding-block: 2%;
+    align-content: center;
+    text-align: center;
+    max-width: 100%;
+    min-height: 20%;
+    background-color: rgb(120, 95, 160);
+    background-image: url(../src/images/manour-night.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.welcome_cards {
+    color: rgb(255, 255, 255);
+    padding-top: 20%;
+}
+
+.card_welcome {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    -webkit-text-size-adjust: auto;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    display: inline-grid;
+    grid-column-gap: 50px;
+    border-color: lemonchiffon;
+    border-style: dotted;
+    border-width: 2px;
+    background-color: rgba(238, 232, 170, 0.349);
+}
+
+.card_welcome:hover,
+.card_welcome:focus {
+    opacity: .85;
+    color: purple;
+    font-weight: bolder;
+}
+
+.page_content {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+.content_card_r {
+    background-color: rgba(240, 128, 128, 0.185);
+    text-align: right;
+}
+
+.content_card_l {
+    background-color: rgba(240, 128, 128, 0.185);
+    text-align: left;
+}
+
+.content_head {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    font-family: "Bluu Next", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: rgb(249, 244, 242);
+    margin-top: 5px;
+}
+
+.content_body {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
